@@ -162,6 +162,7 @@ option(MNN_AVX512 "Enable AVX512" OFF)
 option(MNN_CUDA "Enable CUDA" OFF)
 option(MNN_TENSORRT "Enable TensorRT" OFF)
 option(MNN_COREML "Enable CoreML" OFF)
+option(MNN_NPU "Enable NPU" OFF)
 
 if (MNN_USE_THREAD_POOL)
     message(STATUS "Use Threadpool, forbid openmp")
