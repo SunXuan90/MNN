@@ -4,7 +4,7 @@ cmake ../../../ \
 -DCMAKE_TOOLCHAIN_FILE=$ANDROID_NDK/build/cmake/android.toolchain.cmake \
 -DCMAKE_BUILD_TYPE=Release \
 -DANDROID_ABI="armeabi-v7a" \
--DANDROID_STL=c++_static \
+-DANDROID_STL=c++_shared \
 -DMNN_USE_LOGCAT=true \
 -DMNN_BUILD_BENCHMARK=OFF \
 -DMNN_USE_SSE=OFF \
@@ -17,4 +17,4 @@ cmake ../../../ \
 -DMNN_VULKAN=ON \
 -DNATIVE_LIBRARY_OUTPUT=. -DNATIVE_INCLUDE_OUTPUT=. $1 $2 $3
 
-ninja -j8
+ninja -j16

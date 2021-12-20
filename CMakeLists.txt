@@ -55,7 +55,7 @@ option(MNN_OPENMP "Use OpenMP's thread pool implementation. Does not work on iOS
 option(MNN_USE_THREAD_POOL "Use MNN's own thread pool implementation" ON)
 option(MNN_BUILD_TRAIN "Build MNN's training framework" OFF)
 option(MNN_BUILD_DEMO "Build demo/exec or not" OFF)
-option(MNN_BUILD_TOOLS "Build tools/cpp or not" ON)
+option(MNN_BUILD_TOOLS "Build tools/cpp or not" OFF)
 option(MNN_BUILD_QUANTOOLS "Build Quantized Tools or not" OFF)
 option(MNN_EVALUATION "Build Evaluation Tools or not" OFF)
 option(MNN_BUILD_CONVERTER "Build Converter" OFF)
